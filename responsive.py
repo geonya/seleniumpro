@@ -11,7 +11,7 @@ class ResponsiveTester:
         self.browser = webdriver.Chrome(ChromeDriverManager().install())
         self.browser.maximize_window()
         self.urls = urls
-        self.sizes = [480,1920]
+        self.sizes = [480, 960, 1366, 1920]
     
 
     def get_title(self, url):
